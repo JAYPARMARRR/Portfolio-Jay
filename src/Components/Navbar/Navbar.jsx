@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
+
 import LogoNavbar from "./logo.png"
 import './Navbar.css';
 import { Link } from 'react-router-dom';
