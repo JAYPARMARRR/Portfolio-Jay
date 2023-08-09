@@ -70,7 +70,7 @@ form textarea {
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    /* background: #000000; */
     font-weight: 300;
     margin-top: 20px;
 }
@@ -86,4 +86,11 @@ form textarea {
 
 nav .fas {
     display: none;
+}
+
+.emaillogo{
+    margin-right: 11px;
+}
+.phonelogo{
+    margin-right: 11px;
 }

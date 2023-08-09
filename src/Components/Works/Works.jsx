@@ -1,4 +1,3 @@
-import React from 'react';
 import './Works.css';
 
 
@@ -19,7 +18,7 @@ const Portfolio = () => {
                             <h2>Jayu Shop</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
                                 deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
-                            <a href="/"><i className="fas fa-external-link-alt">Go</i></a>
+                            <a href="https://shopsy-ecommerce.vercel.app/" target="_blank" rel="noopener noreferrer"><i className="fas fa-external-link-alt">Go</i></a>
                         </div>
                     </div>
                     <div className="work">
@@ -28,7 +27,7 @@ const Portfolio = () => {
                             <h2>Wender App</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
                                 deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
-                            <a href="#"><i className="fas fa-external-link-alt"></i></a>
+                            <a href="https://wanderjayu.vercel.app/" target="_blank" rel="noopener noreferrer">Go<i className="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <div className="work">
@@ -37,11 +36,11 @@ const Portfolio = () => {
                             <h2>Portfolio App</h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam
                                 deserunt dolore vero. Incidunt ea nihil sint. Velit.</p>
-                            <a href="#"><i className="fas fa-external-link-alt"></i></a>
+                            <a href="https://portfolio-jay-eight.vercel.app/" target="_blank" rel="noopener noreferrer">Go<i className="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
-                <a href="" className="btn">See more</a>
+                <a href="https://vercel.com/dashboard/" target="_blank" rel="noopener noreferrer" className="btn">See more</a>
             </div>
         </div>
     );

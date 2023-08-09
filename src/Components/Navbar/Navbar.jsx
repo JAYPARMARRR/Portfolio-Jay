@@ -1,5 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import About from "../About/About";
+import Contact from "../Contact/Contact";
+import Portfolio from "../Works/Works";
 import LogoNavbar from "./logo.png"
 import './Navbar.css';
 import { Link } from 'react-router-dom';
@@ -7,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
- 
+ <>
             <div id="header">
                 <div className="container">
                     <nav>
@@ -15,7 +18,7 @@ const Navbar = () => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
-                            <li><Link to="/services">Services</Link></li>
+                            {/* <li><Link to="/services">Services</Link></li> */}
                             <li><Link to="/portfolio">Portfolio</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
                             <i className="fas fa-times"></i>
@@ -29,6 +32,11 @@ const Navbar = () => {
                 </div>
             </div>
 
+
+ <About/>
+<Portfolio/>
+<Contact/> 
+</>
     );
 };
 

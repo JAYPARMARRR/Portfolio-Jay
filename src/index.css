@@ -10,6 +10,7 @@
 body {
     background: #080808;
     color: #fff;
+    
 }
 @media only screen and (max-width: 600px) {
     #header {
