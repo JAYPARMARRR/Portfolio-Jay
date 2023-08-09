@@ -27,7 +27,7 @@ const Navbar = () => {
                     </nav>
                     <div className="header-text">
                         <p>Front-End Developer </p>
-                        <h1>Hi, I'm <span>Jay</span><br />Parmar from Gujrat</h1>
+                        <h1>Hi, I'm <span>Jay</span><br />Parmar from Gujarat</h1>
                     </div>
                 </div>
             </div>

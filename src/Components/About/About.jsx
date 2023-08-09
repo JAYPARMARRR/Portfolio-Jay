@@ -81,7 +81,7 @@ const About = () => {
                 <li>
                   <span>2023 - Current</span>
                   <br />
-                  Front-End Developer (in Wise Skulls)
+                  Front-End Developer (it Wise Skulls)
                 </li>
                 {/* <li>
                   <span>2019-2021</span>
@@ -116,7 +116,7 @@ const About = () => {
                 <li>
                   <span>5-Jun-2023 </span>
                   <br />
-                  Start Development Journey in Wise Skulls
+                  Start Development Journey it Wise Skulls
                 </li>
               </ul>
             </div>
